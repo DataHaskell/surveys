@@ -1,0 +1,39 @@
+DataHaskell is an open source community; what are you most likely to contribute in the near future ?
+
+Not sure, I'd like to do it, Yes !!, Total 
+
+1 37 21 5 63
+2 24 31 3 58
+3 21 33 10 64
+4 22 31 6 59
+5 54 5 2 61
+
+1 Tutorial(s) on a specific library
+2 Tutorial(s) on a specific task
+3 Collaboration on a common library
+4 One or more new libraries
+
+
+just a little busy with hasktorch atm
+sadly no time unless we find someone to pay such people.
+
+
+that accelerate/llvm/gpgpu thing again
+Neural networks, genetic algorithms
+see above
+sadly no time unless we find someone to pay such people.
+
+
+I’d like to help but don’t know what the current focus is.
+see above
+My available time and skills are probably good to test drive libraries only.
+math-functiuons/mwc-random/statistics/histogram-fill
+sadly no time unless we find someone to pay such people.
+
+
+I have a sparse distributed memory library in progress (porting from c++) I'd like to explore HTM and more neuro/bio inspired stuff
+hasktorch
+Type class of bounded intervals, search tree for intersection queries
+At our company (www.novadiscovery.com) we're working with Tweag.io and Dominic Steinitz (well he's doing it and we're going to test) on a hmatrix-sundials package. Hope this can be useful to the broader community as well
+sadly no time unless we find someone to pay such people.
+

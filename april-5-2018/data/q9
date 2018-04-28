@@ -1,0 +1,31 @@
+What would motivate you to contribute code to the DataHaskell ecosystem ?
+
+
+Not sure about this, Sounds interesting, Great idea !, Total 
+
+1 24 32 8 64
+2 9 27 29 65
+3 11 25 29 65
+4 30 22 9 61
+5 31 25 10 66
+6 29 22 11 62
+
+
+1 Periodic newsletter on related activities
+2 Tutorials/documentation on specific libraries
+3 Tutorials/documentation on specific tasks
+4 DataHaskell custom Cabal/Stack templates
+5 DataHaskell prelude (e.g. like protolude but domain-specific)
+6 Peer review/pair programming
+
+
+platform and arcitecture are always key -- what are we using moslty also interested in dedicated h/w and mobile embedded ml
+Put out a hitlist, like updating HLearn
+Consider sprints or focus sessions at e.g. ICFP.
+Not sure about a prelude. Subhask looked awesome but went nowhere.
+My company doesn’t allow me to contribute
+bite-sized bugs, lists of simple open/missing libraries or methods that should be ported from other langs
+DataHaskell NixOS Jupyterlab Server Configuration (I am working on this)
+An actual motivated effort to make a world class ND array library.
+monetary compensation in some form.
+The more it seems the project will live on and be real-world usable, the more likely I am to start using and contributing. 
