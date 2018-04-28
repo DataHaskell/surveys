@@ -1,13 +1,12 @@
-1 11
-2 30
-3 16
-4 13
-5 0
-6 0
+Beginner : read(ing) tutorial material/solved some coding exercises,11
+Beginning : wrote less than 2 libraries or applications/unpublished,30
+Intermediate : wrote and published on Hackage 3 or more libraries/applications,16
+Advanced intermediate : wrote multiple libraries/applications - co-maintain various packages,13
+Advanced : contribute regularly patches to GHC - among other things,0
+Expert : proposed or commented on one or more language extensions,0
 
-1 Beginner : read(ing) tutorial material, solved some coding exercises
-2 Beginning : wrote less than 2 libraries or applications, unpublished
-3 Intermediate : wrote and published on Hackage 3 or more libraries/applications
-4 Advanced intermediate : wrote multiple libraries/applications, co-maintain various packages
-5 Advanced : contribute regularly patches to GHC, among other things
-6 Expert : proposed or commented on one or more language extensions 
+
+
+
+
+

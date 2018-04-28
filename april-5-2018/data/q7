@@ -1,19 +1,18 @@
-I don't know about it, Prototype/Immature, Unintuitive interface, Good/would recommend, Excellent/best-in-class, Total 
+label,I don't know about it, Prototype/Immature, Unintuitive interface, Good/would recommend, Excellent/best-in-class, Total 
+Libraries: data storage,36,7,9,15,1,68
+Libraries: data manipulation,26,14,11,9,2,62
+Libraries: data visualization,29,29,6,4,0,68
+Libraries: numerical computing,33,12,11,10,0,66
+Libraries: statistical regression,50,9,6,1,0,66
+Libraries: statistical classification,49,10,4,0,0,63
+Other tasks of interest,19,5,7,7,3,41
 
-1 36 7 9 15 1 68
-2 26 14 11 9 2 62
-3 29 29 6 4 0 68
-4 33 12 11 10 0 66
-5 50 9 6 1 0 66
-6 49 10 4 0 0 63
-7 19 5 7 7 3 41
 
-1 Libraries: data storage
-2 Libraries: data manipulation
-3 Libraries: data visualization
-4 Libraries: numerical computing
-5 Libraries: statistical regression
-6 Libraries: statistical classification
-7 Other tasks of interest
+
+
+
+
+
+
 
 

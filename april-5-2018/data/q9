@@ -1,18 +1,17 @@
-Not sure about this, Sounds interesting, Great idea !, Total 
+label,Not sure about this, Sounds interesting, Great idea !, Total 
+Periodic newsletter on related activities,24,32,8,64
+Tutorials/documentation on specific libraries,9,27,29,65
+Tutorials/documentation on specific tasks,11,25,29,65
+DataHaskell custom Cabal/Stack templates,30,22,9,61
+DataHaskell prelude (e.g. like protolude but domain-specific),31,25,10,66
+Peer review/pair programming,29,22,11,62
 
-1 24 32 8 64
-2 9 27 29 65
-3 11 25 29 65
-4 30 22 9 61
-5 31 25 10 66
-6 29 22 11 62
 
 
-1 Periodic newsletter on related activities
-2 Tutorials/documentation on specific libraries
-3 Tutorials/documentation on specific tasks
-4 DataHaskell custom Cabal/Stack templates
-5 DataHaskell prelude (e.g. like protolude but domain-specific)
-6 Peer review/pair programming
+
+
+
+
+
 
 

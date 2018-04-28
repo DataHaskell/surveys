@@ -1,14 +1,13 @@
-At work: Never, At work: Sometimes, At work: Often, Spare time: Never, Spare time: Sometimes, Spare time: Often, Total Respondents 
+label,At work: Never, At work: Sometimes, At work: Often, Spare time: Never, Spare time: Sometimes, Spare time: Often, Total
+Data analysis,9,25,30,16,23,3,69
+Data Visualization,8,29,26,13,24,3,69
+Numerical Computation,16,17,28,12,20,8,67
+Statistical Regression,18,23,18,24,14,4,67
+Statistical Classification,23,18,17,23,15,4,66,
 
-1 9 25 30 16 23 3 69
-2 8 29 26 13 24 3 69
-3 16 17 28 12 20 8 67
-4 18 23 18 24 14 4 67
-5 23 18 17 23 15 4 66 
 
-1 Data analysis
-2 Data Visualization
-3 Numerical Computation
-4 Statistical Regression
-5 Statistical Classification
+
+
+
+
 
