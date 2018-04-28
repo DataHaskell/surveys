@@ -1,5 +1,3 @@
-What brought you to DataHaskell ?
-
 1 17
 2 51
 3 18
@@ -12,8 +10,3 @@ What brought you to DataHaskell ?
 4 Dissatisfaction with data science-related programming languages
 5 Dissatisfaction with data science/machine learning software libraries
 
-Haskell cafe
-I’m hoping a critical mass of people will make Haskell the equal of python/pandas. I’m tired of hmatrix no longer working on windows for me
-This survey.
-Where is numpy & scipy for haskell?!
-See if it could hold up 

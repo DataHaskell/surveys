@@ -1,5 +1,3 @@
-How would you describe these parts of the Haskell ecosystem?
-
 I don't know about it, Prototype/Immature, Unintuitive interface, Good/would recommend, Excellent/best-in-class, Total 
 
 1 36 7 9 15 1 68
@@ -18,72 +16,4 @@ I don't know about it, Prototype/Immature, Unintuitive interface, Good/would rec
 6 Libraries: statistical classification
 7 Other tasks of interest
 
-
-vector, hmatrix
-cassava
-opaleye, persistent
-It's a bit meh on a lot of fronts... parquet is shite, but we also don't have a parser for it at all. Thrift access is limited, it goes on.
-databeses like persist-postgresql, postgresql-simple etc.
-
-
-Tried cassava years ago, it leaked memory like mad.
-frames, streaming libraries
-Frames
-Statistics is decent
-compared to python
-Depends what you're interested it. For ad-hoc, R, style things, there's really nothing. I have tried frames but it just silently dropped 90% of the rows, then needed to spin up GHC as a library. It's really bad. For productionised work though, it's kind of world class. Writing rock solid data formats and parsers is actually possible.
-i cannot live without lens. also played with recursion-schemes (ana/cata/hylo/dyna) 
-
-
-diagrams, chart
-fractionated. no straightforward matplotlib or ggplot competitor yet.
-diffusionkinetics
-diagrams, charts
-Chart
-Don't reinvent the wheel. There are more mature graphing languages out there. Just export to that.
-we use R and specifically R shiny when it comes to data viz. the haskell plot, chart or diagrams libraries are ok but not for data exploration and more for rendering things in prod once you know and want to produce the same output
-gnuplot, diagrams
-compared to python
-OpenGL*, WX,GTK, Cairo... arguably these are mostly thin wrappers around C++ libraries,so the question could be seen asambiguous
-There'i simply no mature library for plotting. I tried to use Charts and its API quite awkward and it doesn't support all required plot types. Others I didn't even try after readicng their haddock
-mostly i just dump images, but if i would need something interactive i would reach for gloss or notgloss. I used both of them previously.
-
-
-accelerate (llvm/cuda dependencies are a pain) hmatrix
-Most of the stuff that helps me solve problems is bindings to existing libraries. These are often a bit slower and less fully featured than in other languages, e.g. Python.
-Too many libraries are Linux specific; I can't figure out hmatrix on Windows D:
-accelerate/repa/hmatrix/vector/massiv all very interesting but hard for newcomers to interoperate, see why to pick one over another.
-Accelerate. So much lift, unlift. So many type inference failures. Ugh.
-Hmatrix, Tensorflow. The only thing that doesn't make me recommend this is the parallelism, but I never checked out accelerate. Tensorflow was a bit painful to go through.
-Hmatrix I used to install on windows Now it’s impossible No regression function
-GSL mostly for odes. GSL has its drawbacks (restrictive licence and poor error message) but gets you started. mwc-random is good for number generation
-hmatrix
-compared to python
-First problem is lack of good numpy-like library (with similar scope not necessarily similar API) No matter what you do you'll need linear algebra Other algorithms are scattered over different packages which are not always compatible and frequently difficult to find does not implement all necessary algorithms etc. There's certainly no one stop shop.
-AD libs are either slow, or absurdly typed. There isn't really a great library which satisfies all needs. There's no ND array library worth speaking of which does BLAS well.
-linear, vector. NumHask is a step in the right direction. I also implemented array-recycling with ghc-rules once to lower the number of allocations.
-
-
-
-I really cannot fit my answer into your categories. I know about the statistics collection at datahaskell, but where is the support for GLMs, GAMs, and so on? And where is an analogue of spatstat in R?
-I just write my own. Nothing worth releasing.
-Implemented a standard qr ols function in hmatrix Haven’t tried the one in Statistics yet
-compared to python
-linear regressions in statistics are buggy and API is not great either When it comes to nonlinear minimization everything becomes much worse
-not needed in haskell up to now
-
-
-Don't know but would be very keen to learn about a good Haskell library that does the job
-compared to python
-many components lack compared with e.g. python-sklearn.
-
-
-ml: Grenade
-streaming data: pipes, conduit Great until you need to create a pipe/conduit yourself. Then it becomes unintuitive.
-The data science of the mere mortal is mostly about representation. There is no single library that can fit the bill. But Haskell makes parsing and representation easy.
-In general most Haskell libraries have no example of how to use it. It's probably really, really obvious for experienced Haskell programmers, but for learning, a SYNOPSIS (as most Perl libraries have) would be a great help, just a couple of lines that a) show how to use the library, and b) work.
-Any good pde solving libraries out there ? (without having to go through tensor flow :-) ). Also any good optimization library or interfaces to good ones
-Would love to have some symbolic algebraic manipulation capabilities in Haskell.
-relational-reqcord
-tried to implement SVM/Core-Vector-Machines with subhask .. did not work .. :(
 
